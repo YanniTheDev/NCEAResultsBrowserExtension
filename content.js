@@ -1,3 +1,24 @@
 // Get first two elements of class ".table-responsive"
+const summaryResultTable = document.querySelectorAll(".table-responsive");
 
 // Set the display to none
+summaryResultTable.forEach((table) => {
+    table.style.display = "none";
+});
+
+// Get the summary for credits table and disable it
+const summaryCreditsTable = document.querySelector(".table-sm");
+summaryCreditsTable.style.display = "none";
+
+// Hide the pie chart
+const pieChart = document.querySelector(".col-sm-7");
+pieChart.style.display = "none";
+
+// Store all the result values
+const resultValues = Array.from(document.querySelectorAll(".result-value"));
+
+console.log(resultValues);
+
+// Check if "s" key is pressed
+
+// Increase a counter and display the result value with the counter as the index
