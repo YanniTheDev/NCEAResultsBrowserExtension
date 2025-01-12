@@ -17,8 +17,16 @@ pieChart.style.display = "none";
 // Store all the result values
 const resultValues = Array.from(document.querySelectorAll(".result-value"));
 
-console.log(resultValues);
+// Hide them
+resultValues.forEach((result) => {
+    result.style.display = "none";
+});
 
 // Check if "s" key is pressed
+window.addEventListener("keypress", (key) => {
+    if (key.code === "KeyS") {
+        console.log("s pressed");
+    }
+});
 
 // Increase a counter and display the result value with the counter as the index
