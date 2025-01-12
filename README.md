@@ -8,3 +8,8 @@ Select **Load Unpacked**.
 Select the unzipped folder fo this repository.
 
 ## Boom you have installed the browser extension
+
+# Running the extension
+
+Simply head the NCEA Summary page with this browser extension activated. By pressing the S key, you will
+reveal your grades one by one from top to bottom.
