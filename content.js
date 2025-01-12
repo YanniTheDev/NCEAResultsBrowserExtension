@@ -22,11 +22,12 @@ resultValues.forEach((result) => {
     result.style.display = "none";
 });
 
+let counter = 0;
+
 // Check if "s" key is pressed
 window.addEventListener("keypress", (key) => {
     if (key.code === "KeyS") {
-        console.log("s pressed");
+        resultValues[counter].style.display = "flex";
+        counter++;
     }
 });
-
-// Increase a counter and display the result value with the counter as the index
