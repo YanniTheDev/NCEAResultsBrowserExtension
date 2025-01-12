@@ -7,7 +7,7 @@ Turn on developer mode.
 Select **Load Unpacked**.
 Select the unzipped folder fo this repository.
 
-## Boom you have installed the browser extension
+#### Boom you have installed the browser extension
 
 # Running the extension
 
