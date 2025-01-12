@@ -22,6 +22,7 @@ resultValues.forEach((result) => {
     result.style.display = "none";
 });
 
+// Counter for the result values
 let counter = 0;
 
 // Check if "s" key is pressed
