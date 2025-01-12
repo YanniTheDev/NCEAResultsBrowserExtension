@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "NCEA SchoolBridge Browser Extension",
+    "version": "1.0",
+    "description": "Will hide your grades on SchoolBridge and slowly reveal them with the click of the 's' key",
+    "icons": {
+
+    },
+    "content_scripts": [
+        {
+            "matches": [
+
+            ],
+            "js" : [
+                "content.js"
+            ]
+        }
+    ]
+}
