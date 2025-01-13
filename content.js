@@ -42,8 +42,14 @@ const endorsementsTables = document.querySelectorAll(".sk_table");
 console.log(endorsementsTables);
 endorsementsTables[0].style.display = "none";
 endorsementsTables[1].style.display = "none";
+endorsementsTables[2].style.display = "none";
+endorsementsTables[3].style.display = "none";
 
 // Hiding the NCEA summary table
 const nceaSummaryTable = document.querySelector(".ncea-summary");
 nceaSummaryTable.style.display = "none";
+
+// Hiding yearly credit summary and pie chart
+const creditsSummary = document.querySelector(".row");
+creditsSummary.style.display = "none";
 // #endregion
