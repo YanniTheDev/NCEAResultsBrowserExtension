@@ -1,3 +1,4 @@
+// #region OLD SCHOOLBRIDGE
 // Get first two elements of class ".table-responsive"
 const summaryResultTable = document.querySelectorAll(".table-responsive");
 
@@ -32,3 +33,11 @@ window.addEventListener("keypress", (key) => {
         counter++;
     }
 });
+// #endregion
+
+// #region NEW SCHOOLBRDIGE
+window.onload = () => {
+    const nceaQualificationTable = document.querySelector(".ncea-qualification-table");
+    nceaQualificationTable.style.display = "none";
+}
+// #endregion
