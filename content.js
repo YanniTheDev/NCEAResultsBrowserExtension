@@ -9,11 +9,11 @@ summaryResultTable.forEach((table) => {
 
 // Get the summary for credits table and disable it
 const summaryCreditsTable = document.querySelector(".table-sm");
-summaryCreditsTable.style.display = "none";
+summaryCreditsTable ? summaryCreditsTable.style.display = "none" : console.log("Found no .table-sm");
 
 // Hide the pie chart
 const pieChart = document.querySelector(".col-sm-7");
-pieChart.style.display = "none";
+pieChart ? pieChart.style.display = "none" : console.log("Found no pie chart");
 
 // Store all the result values
 const resultValues = Array.from(document.querySelectorAll(".result-value"));
@@ -36,8 +36,14 @@ window.addEventListener("keypress", (key) => {
 // #endregion
 
 // #region NEW SCHOOLBRDIGE
-window.onload = () => {
-    const nceaQualificationTable = document.querySelector(".ncea-qualification-table");
-    nceaQualificationTable.style.display = "none";
-}
+
+// Hiding endorsement & credit summary tables
+const endorsementsTables = document.querySelectorAll(".sk_table");
+console.log(endorsementsTables);
+endorsementsTables[0].style.display = "none";
+endorsementsTables[1].style.display = "none";
+
+// Hiding the NCEA summary table
+const nceaSummaryTable = document.querySelector(".ncea-summary");
+nceaSummaryTable.style.display = "none";
 // #endregion
