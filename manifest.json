@@ -11,7 +11,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://student.nayland.school.nz/ncea_summary"
+                "https://nayland.school.kiwi/results_summary"
             ],
             "js" : [
                 "content.js"
