@@ -16,7 +16,6 @@ reveal your grades one by one from top to bottom.
 
 # Somethings to note
 
-Because each school has a different NCEA Summary URL, you will have to open the manifest.json file and change the URL under
-the property `matches`. It is defaultly set to Nayland.
+Because each school has a different NCEA Summary URL, you will have to open the manifest.json file (in Notepad or some other text editor) and change the URL under the property `matches`. It is defaultly set to Nayland.
 
-> For example if your school is Waimea College, then you would probably change the URL to something like `https://waimea.school.kiwi/results_summary`
+> For example if your school is Waimea College, then you would probably change the URL to something like `https://waimea.school.kiwi/results_summary`. Then head back to your browser's extensions settings page and click on **Update**.
